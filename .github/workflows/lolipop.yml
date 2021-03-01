@@ -2,7 +2,7 @@ name: lolipop
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   deploy:
