@@ -45,3 +45,7 @@ elementId.forEach((machine) => {
     $(machine.idName).css("background-color", "");
   });
 });
+
+$("#version-info").on("click", () => {
+  gamePage.setAttribute("src", "ver-history/ver-history.html");
+});

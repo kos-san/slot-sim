@@ -12,7 +12,10 @@ body {
   display: inline-block;
   margin: 3vh 0;
 }
-
+.sim-ver {
+  text-align: right;
+  font-size: small;
+}
 .main {
   height: calc(100vh - 15%);
 }

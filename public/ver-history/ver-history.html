@@ -32,32 +32,32 @@
     ></script>
 
     <link rel="stylesheet" href="index.css" />
-    <title>スロットシミュレーター</title>
+    <title>シミュレーターバージョン履歴</title>
   </head>
   <body>
-    <div class="header">
-      <h1 class="title">スロットシミュレーター</h1>
-    </div>
-    <div class="main">
-      <div class="side-bar">
-        <p class="select-machine">機種を選ぶ</p>
-        <p class="sim-ver">
-          simulator Version:
-          <span id="version-info" style="color: red">1.0</span>
-        </p>
-        <ul class="machine-list" id="machine-list">
-          <!-- jsファイルから追加する -->
-        </ul>
-      </div>
-      <div class="game-area">
-        <iframe
-          class="game-page"
-          id="game-page"
-          src="info.html"
-          height="600"
-          width="900"
-        ></iframe>
-      </div>
+    <div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Ver</th>
+            <th>Data</th>
+            <th>Content</th>
+            <th>Diary</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1.0</td>
+            <td>2021/03/02</td>
+            <td>シミュレーターテスト版開発</td>
+            <td>
+              なんとなく、面白そうと思い、プログラミングの勉強も兼ねて、ジャグラーの各フラグ確率を利用して、Rubyで動かしたのが始まりです。<br />
+              その後、JavaScriptの勉強を始めたことから、ブラウザから操作して、グラフを見れたりなど、視覚的にも楽しめるものを作ろうと思い、アプリケーションにしてみました。
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="hidden error-message" id="sum_error"></p>
     </div>
     <script type="text/javascript" src="index.js"></script>
   </body>
