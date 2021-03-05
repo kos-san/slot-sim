@@ -3,6 +3,11 @@ const gamePage = document.getElementById("game-page");
 const machineList = document.getElementById("machine-list");
 const elementId = [
   {
+    name: "ファンキージャグラー",
+    idName: "funky-juggler",
+    url: "funky-juggler/index.html",
+  },
+  {
     name: "アイムジャグラーEX-AE",
     idName: "juggler-ex-ae",
     url: "juggler-ex-ae/index.html",
