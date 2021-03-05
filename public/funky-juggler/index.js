@@ -250,7 +250,7 @@ window.addEventListener("load", function () {
           }
 
           l = 0;
-          medal += 345;
+          medal += 312;
         } else if (result === "チェリーBIG") {
           console.log(`${l}回転目：チェリーBIG`);
           big_count++;
@@ -258,7 +258,7 @@ window.addEventListener("load", function () {
             jag_ren++;
           }
           l = 0;
-          medal += 345;
+          medal += 312;
         } else if (result === "中段チェリーBIG") {
           console.log(`${l}回転目：中段チェリーBIG`);
           big_count++;
@@ -266,7 +266,7 @@ window.addEventListener("load", function () {
             jag_ren++;
           }
           l = 0;
-          medal += 345;
+          medal += 312;
         } else if (result === "reg") {
           console.log(`${l}回転目：REG`);
           reg_count++;
@@ -275,7 +275,7 @@ window.addEventListener("load", function () {
             jag_ren++;
           }
           l = 0;
-          medal += 105;
+          medal += 104;
         } else if (result === "チェリーREG") {
           console.log(`${l}回転目：チェリーREG`);
           reg_count++;
@@ -284,20 +284,20 @@ window.addEventListener("load", function () {
             jag_ren++;
           }
           l = 0;
-          medal += 105;
-        } else if (result === "replay") {
+          medal += 104;
+        } else if (result === "リプレイ") {
           medal += 3;
           l++;
-        } else if (result === "grape") {
+        } else if (result === "ぶどう") {
           medal += 7;
           l++;
-        } else if (result === "cherry") {
+        } else if (result === "チェリー") {
           medal++;
           l++;
-        } else if (result === "pielo") {
+        } else if (result === "ピエロ") {
           medal += 10;
           l++;
-        } else if (result === "bel") {
+        } else if (result === "ベル") {
           medal += 15;
           l++;
         } else {
